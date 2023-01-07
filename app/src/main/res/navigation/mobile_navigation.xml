@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_ville">
+
+    <fragment
+        android:id="@+id/nav_ville"
+        android:name="packg.com.project_vill_zone.fragmentMune.Fragment_Ville"
+        android:label="@string/menu_ville"
+        tools:layout="@layout/fragment__ville" />
+
+    <fragment
+        android:id="@+id/nav_zone"
+        android:name="packg.com.project_vill_zone.fragmentMune.Fragment_Zone"
+        android:label="@string/menu_zone"
+        tools:layout="@layout/fragment__zone" />
+    <fragment
+        android:id="@+id/nav_restaurant"
+        android:name="packg.com.project_vill_zone.fragmentMune.Fragment_Restaurant"
+        android:label="Restaurant"
+        tools:layout="@layout/fragment_restaurant" />
+    <fragment
+        android:id="@+id/nav_maprestaurant"
+        android:name="packg.com.project_vill_zone.fragmentMune.Fragment_near_restaurant"
+        android:label="all position "
+        tools:layout="@layout/fragment_map" />
+    <fragment
+        android:id="@+id/nav_maprestaurant1"
+        android:name="packg.com.project_vill_zone.fragmentMune.Fragment_Search_restaurant"
+        android:label="Search restaurant"
+        tools:layout="@layout/fragment__search_restaurant" />
+
+</navigation>

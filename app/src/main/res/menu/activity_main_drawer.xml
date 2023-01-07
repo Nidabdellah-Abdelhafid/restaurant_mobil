@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_ville"
+            android:icon="@drawable/ic_baseline_add_location_24"
+            android:title="@string/menu_ville" />
+        <item
+            android:id="@+id/nav_zone"
+            android:icon="@drawable/ic_baseline_zoom_in_24"
+            android:title="@string/menu_zone" />
+        <item
+            android:id="@+id/nav_restaurant"
+            android:icon="@drawable/ic_baseline_zoom_in_24"
+            android:title="Restaurant" />
+        <item
+            android:id="@+id/nav_maprestaurant"
+            android:icon="@drawable/ic_baseline_zoom_in_24"
+            android:title=" AllRestaurant" />
+        <item
+            android:id="@+id/nav_maprestaurant1"
+            android:icon="@drawable/ic_baseline_zoom_in_24"
+            android:title=" Search restaurant " />
+
+
+
+    </group>
+</menu>
